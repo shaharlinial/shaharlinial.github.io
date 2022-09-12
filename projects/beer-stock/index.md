@@ -1,5 +1,4 @@
 ---
-icon: flame
 tags: [project]
 ---
 ![](/static/beer-stock/local-bar-system.jpg)
