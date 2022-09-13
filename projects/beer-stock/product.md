@@ -28,6 +28,7 @@ If we change the price (up or down) of a beer several times througout the night 
 Beer stock price modeling example:
 
 Imagine that this was the end-of-day sales chart before the beer stock:
+
 | Beer Type | Average Beer Price | Count Sold | In Stock |
 |-----------|--------------------|------------|----------|
 | A         | 25                 | 100        | 0        |
@@ -35,10 +36,7 @@ Imagine that this was the end-of-day sales chart before the beer stock:
 | C         | 27                 | 10         | 90       |
 
 
-The total income would be:
-$$
-\displaystyle \left( 25 \cdot 100 + 28 \cdot 10 + 27 \cdot 10 = 3,050)
-$$
+The total income would be: $25 \cdot 100 + 28 \cdot 10 + 27 \cdot 10 = 3,050$
 
 If this would be the status for several days, B and C casks would get thrown away.
 
@@ -52,9 +50,6 @@ With beer stock:
 | C         | 26                 | 35         | 65       |
 
 
-The total income would be:
-$$
-\displaystyle \left( 26 \cdot 120 = 3,120)
-$$
+The total income would be: $ 26 \cdot 120 = 3,120)$
 
 This implies a higher income while avoiding throwing away beers B & C!
