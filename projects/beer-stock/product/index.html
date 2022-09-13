@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
-    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.716365378327">
+    <meta name="turbo-cache-control" content="no-cache" data-turbo-track="reload" data-track-token="2.4.0.716365812182">
 
     <!-- See retype.com -->
     <meta name="generator" content="Retype 2.4.0">
@@ -30,11 +30,11 @@
 
     <script>(function () { var el = document.documentElement, m = localStorage.getItem("doc_theme"), wm = window.matchMedia; if (m === "dark" || (!m && wm && wm("(prefers-color-scheme: dark)").matches)) { el.classList.add("dark") } else { el.classList.remove("dark") } })();</script>
 
-    <link href="../../../resources/css/retype.css?v=2.4.0.716365378327" rel="stylesheet" />
+    <link href="../../../resources/css/retype.css?v=2.4.0.716365812182" rel="stylesheet" />
 
-    <script type="text/javascript" src="../../../resources/js/config.js?v=2.4.0.716365378327" data-turbo-eval="false" defer></script>
+    <script type="text/javascript" src="../../../resources/js/config.js?v=2.4.0.716365812182" data-turbo-eval="false" defer></script>
     <script type="text/javascript" src="../../../resources/js/retype.js?v=2.4.0" data-turbo-eval="false" defer></script>
-    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=2.4.0.716365378327" data-turbo-eval="false" defer></script>
+    <script id="lunr-js" type="text/javascript" src="../../../resources/js/lunr.js?v=2.4.0.716365812182" data-turbo-eval="false" defer></script>
     <link href="../../../resources/css/katex.css?v=2.4.0" rel="stylesheet" />
     <script id="katex-js" type="text/javascript" src="../../../resources/js/katex.js?v=2.4.0" defer></script>
 </head>
@@ -218,14 +218,40 @@ If we change the price (up or down) of a beer several times througout the night 
     </div>
 </div>
 <p>Beer stock price modeling example:</p>
-<p>Imagine that this was the end-of-day sales chart before the beer stock:
-| Beer Type | Average Beer Price | Count Sold | In Stock |
-|-----------|--------------------|------------|----------|
-| A         | 25                 | 100        | 0        |
-| B         | 28                 | 10         | 90       |
-| C         | 27                 | 10         | 90       |</p>
-<p>The total income would be:</p>
-<div class="math"><pre>\displaystyle \left( 25 \cdot 100 + 28 \cdot 10 + 27 \cdot 10 = 3,050)</pre></div>
+<p>Imagine that this was the end-of-day sales chart before the beer stock:</p>
+<div class="table-wrapper scrollbar overflow-hidden">
+<table class="comfortable">
+<thead>
+<tr>
+<th>Beer Type</th>
+<th>Average Beer Price</th>
+<th>Count Sold</th>
+<th>In Stock</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>A</td>
+<td>25</td>
+<td>100</td>
+<td>0</td>
+</tr>
+<tr>
+<td>B</td>
+<td>28</td>
+<td>10</td>
+<td>90</td>
+</tr>
+<tr>
+<td>C</td>
+<td>27</td>
+<td>10</td>
+<td>90</td>
+</tr>
+</tbody>
+</table>
+</div>
+<p>The total income would be: <span class="math">25 \cdot 100 + 28 \cdot 10 + 27 \cdot 10 = 3,050</span></p>
 <p>If this would be the status for several days, B and C casks would get thrown away.</p>
 <p>With beer stock:</p>
 <div class="table-wrapper scrollbar overflow-hidden">
@@ -260,8 +286,7 @@ If we change the price (up or down) of a beer several times througout the night 
 </tbody>
 </table>
 </div>
-<p>The total income would be:</p>
-<div class="math"><pre>\displaystyle \left( 26 \cdot 120 = 3,120)</pre></div>
+<p>The total income would be: $ 26 \cdot 120 = 3,120)$</p>
 <p>This implies a higher income while avoiding throwing away beers B &amp; C!</p>
 
                                 
