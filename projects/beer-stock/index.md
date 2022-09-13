@@ -14,7 +14,6 @@ Goals  |
 Reduced waste of thrown away beer casks |
 Increase engagement with locals |
 
-
 In the making of this project it was required:
 - [Product design](product.md)
 - [Software Engineering & Architecture](architecture.md)
