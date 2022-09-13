@@ -8,7 +8,7 @@ icon: light-bulb
 It all started when a friend of mine (the bar owner) said to me that a lot of beer casks are being thrown away due to their expiration dates.
 These beers, were not bad, actually, some of them tasted really good (at least to my perception). However, people had the lack of interest in tasting new kind of beer.
 
-!!! How do we make people buy beers that they have never tasted before? :question:
+!!! :question: How do we make people buy beers that they have never tasted before? :question:
 That's easy, one can simply give a discount / lower the price.
 
 Managing such discounts on various types of beers requires analysis of sales closely, but this is a tedious task without analyst tools.
@@ -20,7 +20,7 @@ There is a third problem with this price modeling: how can you maintain the loca
 !!!
 
 
-!!! How do we make customer try new beers, without analyst tools, without making a returning customer upset affecting the price of his favorite beer for a full night? :bulb:
+!!! :bulb: How do we make customer try new beers, without analyst tools, without making a returning customer upset affecting the price of his favorite beer for a full night? :bulb:
 This thinking is what lead to the creation of Beer Stock.
 If we change the price (up or down) of a beer several times througout the night (pracically based on a 7-minute ticker), we could achieve our goals without making a single customer upset for not buying his favorite beer in the price he is used to
 !!!
@@ -50,6 +50,6 @@ With beer stock:
 | C         | 26                 | 35         | 65       |
 
 
-The total income would be: $ 26 \cdot 120 = 3,120)$
+The total income would be: $26 \cdot 120 = 3,120)$
 
 This implies a higher income while avoiding throwing away beers B & C!
